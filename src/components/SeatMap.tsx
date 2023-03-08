@@ -1,6 +1,6 @@
 import { FC, useState } from "react";
 import seatMapArray from "../seatMap.json";
-import "./Theater.css"
+import "./SeatMap.css"
 
 interface Seat {
   rowNo: string;

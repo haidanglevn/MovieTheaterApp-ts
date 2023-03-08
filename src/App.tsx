@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Theater from "./components/Theater";
+import SeatMap from "./components/SeatMap";
 import Layout from "./pages/Layout";
 import "./App.css";
 import Home from "./components/Home";
@@ -12,7 +12,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route path="/home" element={<Home/>}/>
-              <Route path="/theater" element={<Theater />} />
+              <Route path="/seatmap" element={<SeatMap />} />
             </Route>
           </Routes>
         </div>

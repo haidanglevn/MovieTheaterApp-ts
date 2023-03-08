@@ -1,6 +1,5 @@
 .nav {
-  background-color: black;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.797);
   position: fixed;
   left: 0;
   top: 50px;
@@ -12,12 +11,11 @@ ul {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
 }
 
 li a {
   display: block;
-  color: #000;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -39,6 +37,10 @@ li a:hover {
   padding: 0 2em;
   z-index: 1;
 }
+.top a {
+  color: yellow;
+  text-decoration: none;
+}
 .circle {
   background-color: #f1f1f1;
   border-radius: 50%;
@@ -55,5 +57,7 @@ li a:hover {
   margin-left: 200px;
 }
 .outlet > div {
+  background-color: black;
+  color: white;
   padding: 50px 0;
 }

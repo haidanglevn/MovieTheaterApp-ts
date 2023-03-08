@@ -10,7 +10,7 @@ const Layout = () => {
             <NavLink to="/home">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/theater">Theater</NavLink>
+            <NavLink to="/seatmap">Seat Map</NavLink>
           </li>
         </ul>
       </div>
