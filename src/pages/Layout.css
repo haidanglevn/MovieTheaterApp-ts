@@ -28,6 +28,7 @@ li a:hover {
 }
 
 .top {
+  position: fixed;
   background-color: black;
   color: white;
   width: 100%;
@@ -36,6 +37,7 @@ li a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 0 2em;
+  z-index: 1;
 }
 .circle {
   background-color: #f1f1f1;
@@ -51,4 +53,7 @@ li a:hover {
 }
 .outlet {
   margin-left: 200px;
+}
+.outlet > div {
+  padding: 50px 0;
 }

@@ -1,0 +1,20 @@
+.movie-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movieCard {
+    position: relative;
+    border-radius: 10px;
+    flex-grow: 1;
+    max-width: 200px;
+}
+
+.movieCard span{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: yellow;
+}

@@ -15,7 +15,9 @@ const Layout = () => {
         </ul>
       </div>
       <div className="top">
-        <h1>SEAT MAP APP</h1>
+        <h1>
+          <NavLink to="/home">MOVIEX</NavLink>
+        </h1>
         <div className="welcome-user">
           <div className="circle"></div>
           <div>
