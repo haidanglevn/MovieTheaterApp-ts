@@ -1,9 +1,10 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams, Route, Routes } from "react-router-dom";
 import "./MovieSingle.css";
+import SeatMap from "./SeatMap";
 
-interface Movie {
+export interface Movie {
   title: string;
   release_date: string;
   id: number;
@@ -18,16 +19,17 @@ interface Movie {
   runtime: number;
   production_companies: Array<ProductionCompanies>;
 }
-type MoviesData = Movie;
-type Genre = {
+export type MoviesData = Movie;
+export type Genre = {
   id: number;
   name: string;
 };
-type ProductionCompanies = {
+export type ProductionCompanies = {
   id: number;
   logo_path: string;
   name: string;
 };
+
 const MovieSingle = () => {
   const params = useParams();
   const [moviesData, setMoviesData] = useState<MoviesData>();
@@ -37,9 +39,11 @@ const MovieSingle = () => {
       .get(
         `https://api.themoviedb.org/3/movie/${params.single}?api_key=beca0ddb56a192917d51c9b0f0d98844&language=en-US`
       )
-      .then((res) => setMoviesData(res.data));
+      .then((res) => {
+        setMoviesData(res.data);
+      });
   }, []);
-  console.log(moviesData);
+
   return (
     <div className="movieSingle">
       <div className="movie-hero">
@@ -82,6 +86,12 @@ const MovieSingle = () => {
               ★ {moviesData?.vote_average} / 10 ({moviesData?.vote_count})
             </p>
           </div>
+          <button>
+            <Link to="./ticket">See ticket availability</Link>
+            <Routes>
+              <Route path="/:single/ticket" element={<SeatMap />} />
+            </Routes>
+          </button>
         </div>
       </div>
     </div>

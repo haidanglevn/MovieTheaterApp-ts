@@ -16,10 +16,13 @@ interface Row {
 
 type SeatMap = Row[];
 
-const Theater: FC = () => {
+interface Props {
+  name: string;
+  id: number
+}
+const SeatMap = (props: any) => {
   const [seatData, setSeatData] = useState<SeatMap>(seatMapArray);
   const [chosenSeat, setChosenSeat] = useState<Partial<Seat>>();
-
   const chosenSeatRender = () => {
     if (chosenSeat) {
       return (
@@ -79,4 +82,4 @@ const Theater: FC = () => {
   );
 };
 
-export default Theater;
+export default SeatMap;
