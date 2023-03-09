@@ -1,0 +1,25 @@
+
+.movie-hero {
+  text-align: left;
+  padding: 20px;
+}
+.poster {
+  height: 80%;
+  width: 400px;
+}
+
+.movie-info {
+  text-align: left;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+}
+#company-logo {
+  width: 100px;
+}

@@ -1,4 +1,4 @@
-import axios, { AxiosResponse, AxiosError } from "axios";
+import axios from "axios";
 import { useState, useEffect } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
