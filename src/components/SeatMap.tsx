@@ -1,7 +1,12 @@
+import axios from "axios";
 import { FC, useEffect, useState } from "react";
 import seatMapArray from "../seatMap.json";
 import "./SeatMap.css";
+import { MoviesData } from "./MovieSingle";
 
+interface MoviesDataWithTicket extends MoviesData {
+  ticket?: SeatMap;
+}
 interface Seat {
   rowNo: string;
   seatNo: number;
@@ -31,7 +36,28 @@ const SeatMap = (props: Props) => {
   // -----> no: take empty array from seatMap.json, push in array as ticket.
   // if no, create new object with props.name, take empty array from seatMap.json,
   // push in array as ticket. (case2)
-  useEffect(() => {}, []);
+  useEffect(() => {
+    axios.get(`http://localhost:3001/movies/${props.id}`).then((res) => {
+      const itemData: MoviesDataWithTicket = res.data;
+      console.log("Item data ", itemData);
+      if (itemData.hasOwnProperty("ticket")) {
+        console.log("this movie have ticket data");
+        setSeatData(itemData.ticket);
+        setIsLoading(false);
+      } else {
+        console.log("this movie doesnt have ticket data");
+        itemData.ticket = seatMapArray;
+        axios
+          .put(`http://localhost:3001/movies/${props.id}`, itemData)
+          .then((res) => {
+            console.log("added default empty seat map ");
+          })
+          .catch((error)=> console.log(error));
+        setSeatData(itemData.ticket);
+        setIsLoading(false);
+      }
+    });
+  }, []);
 
   const chosenSeatRender = () => {
     if (chosenSeat) {
