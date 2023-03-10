@@ -77,9 +77,9 @@ const movieObject = {
   vote_average: 3,
   vote_count: 1,
 };
-const array = [
-   
-]
+const database = {
+  movie: [],
+};
 array.push(movieObject);
 array[0].ticket = seatMapArray;
 console.log(array)

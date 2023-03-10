@@ -32,17 +32,44 @@ export type ProductionCompanies = {
 
 const MovieSingle = () => {
   const params = useParams();
+  const [isLoading, setIsLoading] = useState(true);
   const [moviesData, setMoviesData] = useState<MoviesData>();
 
+  // find data from local, if not found fetch from api
   useEffect(() => {
     axios
-      .get(
-        `https://api.themoviedb.org/3/movie/${params.single}?api_key=beca0ddb56a192917d51c9b0f0d98844&language=en-US`
-      )
+      .get(`http://localhost:3001/movies/${params.single}`)
       .then((res) => {
+        console.log("fount something in local db, no need api");
         setMoviesData(res.data);
+      })
+      .catch((error) => {
+        console.log("nothing found in db, so fetching from api");
+        axios
+          .get(
+            `https://api.themoviedb.org/3/movie/${params.single}?api_key=beca0ddb56a192917d51c9b0f0d98844&language=en-US`
+          )
+          .then((res) => {
+            setMoviesData(res.data);
+          });
       });
   }, []);
+
+  // update
+  useEffect(() => {
+    console.log(moviesData);
+    if (moviesData) {
+      axios
+        .post("http://localhost:3001/movies", moviesData)
+        .then((response) => {
+          console.log("Data updated successfully:", response);
+        });
+      // Try fix this 500 dublicate error
+      /* .catch((error) => {
+          console.log("Error updating data:", error);
+        }); */
+    }
+  }, [moviesData]);
 
   return (
     <div className="movieSingle">
@@ -53,7 +80,7 @@ const MovieSingle = () => {
           <p>{moviesData?.production_companies[0].name}</p>
           <img
             src={`https://image.tmdb.org/t/p/w500${moviesData?.production_companies[0].logo_path}`}
-            alt="company-logo"
+            alt=""
             id="company-logo"
           />
         </div>
@@ -87,11 +114,16 @@ const MovieSingle = () => {
             </p>
           </div>
           <button>
-            <Link to="./ticket">See ticket availability</Link>
-            <Routes>
-              <Route path="/:single/ticket" element={<SeatMap />} />
-            </Routes>
+            <Link to={`${params.single}/ticket`}>See ticket availability</Link>
           </button>
+          <Routes>
+            <Route
+              path={`:single/ticket`}
+              element={
+                <SeatMap name={moviesData?.title!} id={moviesData?.id!} />
+              }
+            />
+          </Routes>
         </div>
       </div>
     </div>
