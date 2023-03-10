@@ -95,8 +95,8 @@
             {
               "rowNo": "A",
               "seatNo": 2,
-              "name": "",
-              "available": true
+              "name": "Dang",
+              "available": false
             },
             {
               "rowNo": "A",
@@ -689,14 +689,14 @@
             {
               "rowNo": "A",
               "seatNo": 1,
-              "name": "",
-              "available": true
+              "name": "Dang",
+              "available": false
             },
             {
               "rowNo": "A",
               "seatNo": 2,
-              "name": "",
-              "available": true
+              "name": "Dang",
+              "available": false
             },
             {
               "rowNo": "A",
@@ -1168,8 +1168,8 @@
             {
               "rowNo": "H",
               "seatNo": 5,
-              "name": "",
-              "available": true
+              "name": "Nghi",
+              "available": false
             },
             {
               "rowNo": "H",

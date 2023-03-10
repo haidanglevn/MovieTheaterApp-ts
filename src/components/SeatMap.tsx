@@ -28,7 +28,7 @@ interface Props {
 const SeatMap = (props: Props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [seatData, setSeatData] = useState<SeatMap>();
-  const [chosenSeat, setChosenSeat] = useState<Partial<Seat>>();
+  const [chosenSeat, setChosenSeat] = useState<Seat>();
 
   // fetch test.db, search in movies if there is any with the same name as props.name
   // if yes, check if there is already a ticket property: (case1)
@@ -52,31 +52,79 @@ const SeatMap = (props: Props) => {
           .then((res) => {
             console.log("added default empty seat map ");
           })
-          .catch((error)=> console.log(error));
+          .catch((error) => console.log(error));
         setSeatData(itemData.ticket);
         setIsLoading(false);
       }
     });
   }, []);
 
+  const buyTicket = () => {
+    console.log("Ticket info: ", chosenSeat);
+    axios.get(`http://localhost:3001/movies/${props.id}`).then((res) => {
+      const selectedMovie = res.data;
+      const selectedTicket = selectedMovie.ticket;
+      const selectedRow = selectedTicket.find(
+        (seat: any) => seat.rowName === chosenSeat?.rowNo
+      );
+      selectedRow.rowSeats.forEach((seat: any) => {
+        if (seat.seatNo === chosenSeat?.seatNo) {
+          seat.name = chosenSeat?.name;
+          seat.available = chosenSeat?.available;
+        }
+      });
+      axios
+        .put(`http://localhost:3001/movies/${props.id}`, selectedMovie)
+        .then((response) => {
+          setSeatData(selectedTicket);
+          console.log("Updated ticket data");
+        })
+        .catch((error) => {
+          console.error("Error: cannot update ticket data");
+        });
+      console.log("Ticket bought succesfully");
+    });
+  };
+
+  const changeTicketInfo = (nameOnTicket: string) => {
+    let ticketInfo = chosenSeat;
+    ticketInfo!.name = nameOnTicket;
+    ticketInfo!.available = false;
+    setChosenSeat(ticketInfo);
+    console.log(chosenSeat);
+  };
+
   const chosenSeatRender = () => {
     if (chosenSeat) {
       return (
         <div>
-          <h1>Your chosen seat: </h1>
-          <h2>Row: {chosenSeat!.rowNo}</h2>
-          <h2>Seat: {chosenSeat!.seatNo}</h2>
-          <h2>This seat is available to buy!</h2>
-          <button>Buy ticket</button>
+          <div>
+            <h1>Your chosen seat: </h1>
+            <h2>Row: {chosenSeat!.rowNo}</h2>
+            <h2>Seat: {chosenSeat!.seatNo}</h2>
+            <h2>This seat is available to buy!</h2>
+          </div>
+          <form>
+            <label htmlFor="ticket-name">
+              Enter your name here and press "Buy ticket"
+            </label>
+            <input
+              type="text"
+              id="ticket-name"
+              onChange={(e) => changeTicketInfo(e.target.value)}
+            />
+          </form>
+          <button onClick={buyTicket}>Buy ticket</button>
         </div>
       );
     }
   };
-  console.log(props.id, props.name);
 
   const showChosenSeat = (chosenSeat: Seat): void => {
-    console.log("seat data", chosenSeat);
-    setChosenSeat(chosenSeat);
+    if (chosenSeat.available) {
+      console.log("seat data", chosenSeat);
+      setChosenSeat(chosenSeat);
+    }
   };
 
   const renderTicket = () => {
@@ -93,10 +141,13 @@ const SeatMap = (props: Props) => {
                 <div className="row" key={`${item.rowName}-${item.rowSeats}`}>
                   <span className="row-number">Row: {item.rowName}</span>
                   {item.rowSeats.map((seat) => {
-                    if (seat.available) {
+                    if (
+                      seat.rowNo == chosenSeat?.rowNo &&
+                      seat.seatNo == chosenSeat.seatNo
+                    ) {
                       return (
                         <div
-                          className="seat available"
+                          className={`seat chosen available`}
                           onClick={() => showChosenSeat(seat)}
                           key={`${seat.rowNo}-${seat.seatNo}`}
                         >
@@ -108,7 +159,10 @@ const SeatMap = (props: Props) => {
                     } else {
                       return (
                         <div
-                          className="seat unavailable"
+                          className={`seat ${
+                            seat.available ? "available" : "unavailable"
+                          }`}
+                          onClick={() => showChosenSeat(seat)}
                           key={`${seat.rowNo}-${seat.seatNo}`}
                         >
                           <span className="material-symbols-outlined">

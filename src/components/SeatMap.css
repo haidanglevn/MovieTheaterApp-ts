@@ -4,7 +4,7 @@
   font-size: 3em;
   width: 100%;
   height: 10vh;
-  border:5px dotted gray;
+  border: 5px dotted gray;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@
 
 .row {
   display: grid;
-  grid-template-columns: repeat(11,auto);
+  grid-template-columns: repeat(11, auto);
   grid-template-rows: auto;
 }
 
@@ -41,6 +41,10 @@
 .unavailable {
   background-color: gray;
   cursor: not-allowed;
+}
+.chosen {
+  background-color: yellow;
+  color: black;
 }
 
 .available:hover {
