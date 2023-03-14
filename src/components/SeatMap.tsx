@@ -5,6 +5,7 @@ import "./SeatMap.css";
 import { MoviesData } from "./MovieSingle";
 import { auth } from "../auth/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
+import { Link, redirect } from "react-router-dom";
 
 interface MoviesDataWithTicket extends MoviesData {
   ticket?: SeatMap;
@@ -116,6 +117,7 @@ const SeatMap = (props: Props) => {
 
   // render UI to buy ticket for the chosen seat
   const chosenSeatRender = () => {
+    
     if (chosenSeat) {
       return (
         <div>
@@ -128,7 +130,9 @@ const SeatMap = (props: Props) => {
           </div>
           <p>Name: {user?.displayName}</p>
           <p>Email: {user?.email}</p>
-          <button onClick={buyTicket}>Buy ticket</button>
+          <Link to={"/success"} onClick={buyTicket}>
+            <button>Buy ticket</button>
+          </Link>
         </div>
       );
     }

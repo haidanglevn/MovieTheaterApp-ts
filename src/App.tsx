@@ -5,6 +5,7 @@ import New from "./components/New";
 import MovieSingle from "./components/MovieSingle";
 import Profile from "./components/Profile";
 import Popular from "./components/Popular";
+import Success from "./components/Success";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
               <Route path="/popular/:single/*" element={<MovieSingle />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/:single/*" element={<MovieSingle />} />
+              <Route path="/success" element={<Success/>}/>
             </Route>
           </Routes>
         </div>

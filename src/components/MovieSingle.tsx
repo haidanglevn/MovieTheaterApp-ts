@@ -112,8 +112,8 @@ const MovieSingle = () => {
               ★ {moviesData?.vote_average} / 10 ({moviesData?.vote_count})
             </p>
           </div>
-          <button>
-            <Link to={`${params.single}/ticket`}>See ticket availability</Link>
+          <button style={{padding: "10px"}}>
+            <Link to={`${params.single}/ticket`} style={{textDecoration: "none", color: "white"}}>See ticket availability</Link>
           </button>
           <Routes>
             <Route

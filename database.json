@@ -2,98 +2,81 @@
   "movies": [
     {
       "adult": false,
-      "backdrop_path": "/9Rq14Eyrf7Tu1xk0Pl7VcNbNh1n.jpg",
+      "backdrop_path": "/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
       "belongs_to_collection": {
-        "id": 1099094,
-        "name": "Plane Collection",
-        "poster_path": null,
-        "backdrop_path": null
+        "id": 94602,
+        "name": "Puss in Boots Collection",
+        "poster_path": "/anHwj9IupRoRZZ98WTBvHpTiE6A.jpg",
+        "backdrop_path": "/feU1DWV5zMWxXUHJyAIk3dHRQ9c.jpg"
       },
-      "budget": 25000000,
+      "budget": 90000000,
       "genres": [
         {
-          "id": 28,
-          "name": "Action"
+          "id": 16,
+          "name": "Animation"
         },
         {
           "id": 12,
           "name": "Adventure"
         },
         {
-          "id": 53,
-          "name": "Thriller"
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
         }
       ],
-      "homepage": "https://www.plane.movie",
-      "id": 646389,
-      "imdb_id": "tt5884796",
+      "homepage": "https://www.dreamworks.com/movies/puss-in-boots-the-last-wish",
+      "id": 315162,
+      "imdb_id": "tt3915174",
       "original_language": "en",
-      "original_title": "Plane",
-      "overview": "After a heroic job of successfully landing his storm-damaged aircraft in a war zone, a fearless pilot finds himself between the agendas of multiple militias planning to take the plane and its passengers hostage.",
-      "popularity": 1579.028,
-      "poster_path": "/qi9r5xBgcc9KTxlOLjssEbDgO0J.jpg",
+      "original_title": "Puss in Boots: The Last Wish",
+      "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+      "popularity": 2531.473,
+      "poster_path": "/kuf6dutpsT0vSVehic3EZIqkOBt.jpg",
       "production_companies": [
         {
-          "id": 73492,
-          "logo_path": "/bQzrYnomE5hIRJMxEy7e2SCYew3.png",
-          "name": "MadRiver Pictures",
+          "id": 521,
+          "logo_path": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png",
+          "name": "DreamWorks Animation",
           "origin_country": "US"
         },
         {
-          "id": 435,
-          "logo_path": "/AjzK0s2w1GtLfR4hqCjVSYi0Sr8.png",
-          "name": "Di Bonaventura Pictures",
+          "id": 33,
+          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+          "name": "Universal Pictures",
           "origin_country": "US"
-        },
-        {
-          "id": 103331,
-          "logo_path": "/nxkmGpo1Ym74DkBzNtoMz5cl6DJ.png",
-          "name": "G-BASE",
-          "origin_country": "US"
-        },
-        {
-          "id": 149107,
-          "logo_path": "/m5rZejMojEGh6zJyCEzdBdS0ZAy.png",
-          "name": "Olive Hill Media",
-          "origin_country": "US"
-        },
-        {
-          "id": 76314,
-          "logo_path": "/oFiHo3350Nj7bi6oxYMq3Kp6VGC.png",
-          "name": "Riverstone Pictures",
-          "origin_country": "GB"
         }
       ],
       "production_countries": [
         {
           "iso_3166_1": "US",
           "name": "United States of America"
-        },
-        {
-          "iso_3166_1": "PR",
-          "name": "Puerto Rico"
-        },
-        {
-          "iso_3166_1": "GB",
-          "name": "United Kingdom"
         }
       ],
-      "release_date": "2023-01-12",
-      "revenue": 51000000,
-      "runtime": 107,
+      "release_date": "2022-12-07",
+      "revenue": 461000000,
+      "runtime": 103,
       "spoken_languages": [
         {
           "english_name": "English",
           "iso_639_1": "en",
           "name": "English"
+        },
+        {
+          "english_name": "Spanish",
+          "iso_639_1": "es",
+          "name": "Español"
         }
       ],
       "status": "Released",
-      "tagline": "Survive together or die alone.",
-      "title": "Plane",
+      "tagline": "Say hola to his little friends.",
+      "title": "Puss in Boots: The Last Wish",
       "video": false,
-      "vote_average": 6.856,
-      "vote_count": 878,
+      "vote_average": 8.372,
+      "vote_count": 4574,
       "ticket": [
         {
           "rowName": "A",
@@ -108,16 +91,16 @@
             {
               "rowNo": "A",
               "seatNo": 2,
-              "name": "Hai Dang Le",
-              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
-              "available": false
+              "name": "",
+              "uid": "",
+              "available": true
             },
             {
               "rowNo": "A",
               "seatNo": 3,
-              "name": "Hai Dang Le",
-              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
-              "available": false
+              "name": "",
+              "uid": "",
+              "available": true
             },
             {
               "rowNo": "A",
@@ -696,15 +679,2783 @@
           ]
         }
       ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/22z44LPkMyf5nyyXvv8qQLsbom.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "https://www.knockatthecabin.com",
+      "id": 631842,
+      "imdb_id": "tt15679400",
+      "original_language": "en",
+      "original_title": "Knock at the Cabin",
+      "overview": "While vacationing at a remote cabin, a young girl and her two fathers are taken hostage by four armed strangers who demand that the family make an unthinkable choice to avert the apocalypse. With limited access to the outside world, the family must decide what they believe before all is lost.",
+      "popularity": 2101.02,
+      "poster_path": "/dm06L9pxDOL9jNSK4Cb6y139rrG.jpg",
+      "production_companies": [
+        {
+          "id": 12236,
+          "logo_path": "/uV6QBPdn3MjQzAFdgEel6od7geg.png",
+          "name": "Blinding Edge Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 33,
+          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+          "name": "Universal Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 7493,
+          "logo_path": "/452FO4LcI6lA6bfgl6w1kQYRBlr.png",
+          "name": "FilmNation Entertainment",
+          "origin_country": "US"
+        },
+        {
+          "id": 152785,
+          "logo_path": null,
+          "name": "Wishmore",
+          "origin_country": "US"
+        },
+        {
+          "id": 10338,
+          "logo_path": "/el2ap6lvjcEDdbyJoB3oKiYgXu9.png",
+          "name": "Perfect World Pictures",
+          "origin_country": "CN"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2023-02-01",
+      "revenue": 52000000,
+      "runtime": 100,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Save your family or save humanity. Make the choice.",
+      "title": "Knock at the Cabin",
+      "video": false,
+      "vote_average": 6.447,
+      "vote_count": 989,
+      "ticket": [
+        {
+          "rowName": "A",
+          "rowSeats": [
+            {
+              "rowNo": "A",
+              "seatNo": 1,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "B",
+          "rowSeats": [
+            {
+              "rowNo": "B",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "C",
+          "rowSeats": [
+            {
+              "rowNo": "C",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "D",
+          "rowSeats": [
+            {
+              "rowNo": "D",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "E",
+          "rowSeats": [
+            {
+              "rowNo": "E",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "F",
+          "rowSeats": [
+            {
+              "rowNo": "F",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "G",
+          "rowSeats": [
+            {
+              "rowNo": "G",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "H",
+          "rowSeats": [
+            {
+              "rowNo": "H",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pxJbfnMIQQxCrdeLD0zQnWr6ouL.jpg",
+      "belongs_to_collection": null,
+      "budget": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "https://www.amazon.com/dp/B0B6B6B9RY/",
+      "id": 1077280,
+      "imdb_id": "tt26198528",
+      "original_language": "en",
+      "original_title": "Die Hart",
+      "overview": "Kevin Hart - playing a version of himself - is on a death-defying quest to become an action star. And with a little help from John Travolta, Nathalie Emmanuel, and Josh Hartnett - he just might pull it off.",
+      "popularity": 2030.241,
+      "poster_path": "/1EnBjTJ5utgT1OXYBZ8YwByRCzP.jpg",
+      "production_companies": [
+        {
+          "id": 40268,
+          "logo_path": "/shdAxUj8uF6exNLrF0kSqYVxCzG.png",
+          "name": "HartBeat Productions",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2023-02-22",
+      "revenue": 0,
+      "runtime": 85,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Live to change",
+      "title": "Die Hart",
+      "video": false,
+      "vote_average": 6.237,
+      "vote_count": 177,
+      "ticket": [
+        {
+          "rowName": "A",
+          "rowSeats": [
+            {
+              "rowNo": "A",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "B",
+          "rowSeats": [
+            {
+              "rowNo": "B",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "C",
+          "rowSeats": [
+            {
+              "rowNo": "C",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "D",
+          "rowSeats": [
+            {
+              "rowNo": "D",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "E",
+          "rowSeats": [
+            {
+              "rowNo": "E",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "F",
+          "rowSeats": [
+            {
+              "rowNo": "F",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "G",
+          "rowSeats": [
+            {
+              "rowNo": "G",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "H",
+          "rowSeats": [
+            {
+              "rowNo": "H",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9Rq14Eyrf7Tu1xk0Pl7VcNbNh1n.jpg",
+      "belongs_to_collection": {
+        "id": 1099094,
+        "name": "Plane Collection",
+        "poster_path": null,
+        "backdrop_path": null
+      },
+      "budget": 25000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "homepage": "https://www.plane.movie",
+      "id": 646389,
+      "imdb_id": "tt5884796",
+      "original_language": "en",
+      "original_title": "Plane",
+      "overview": "After a heroic job of successfully landing his storm-damaged aircraft in a war zone, a fearless pilot finds himself between the agendas of multiple militias planning to take the plane and its passengers hostage.",
+      "popularity": 1579.028,
+      "poster_path": "/qi9r5xBgcc9KTxlOLjssEbDgO0J.jpg",
+      "production_companies": [
+        {
+          "id": 73492,
+          "logo_path": "/bQzrYnomE5hIRJMxEy7e2SCYew3.png",
+          "name": "MadRiver Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 435,
+          "logo_path": "/AjzK0s2w1GtLfR4hqCjVSYi0Sr8.png",
+          "name": "Di Bonaventura Pictures",
+          "origin_country": "US"
+        },
+        {
+          "id": 103331,
+          "logo_path": "/nxkmGpo1Ym74DkBzNtoMz5cl6DJ.png",
+          "name": "G-BASE",
+          "origin_country": "US"
+        },
+        {
+          "id": 149107,
+          "logo_path": "/m5rZejMojEGh6zJyCEzdBdS0ZAy.png",
+          "name": "Olive Hill Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 76314,
+          "logo_path": "/oFiHo3350Nj7bi6oxYMq3Kp6VGC.png",
+          "name": "Riverstone Pictures",
+          "origin_country": "GB"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "PR",
+          "name": "Puerto Rico"
+        },
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        }
+      ],
+      "release_date": "2023-01-12",
+      "revenue": 51000000,
+      "runtime": 107,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        }
+      ],
+      "status": "Released",
+      "tagline": "Survive together or die alone.",
+      "title": "Plane",
+      "video": false,
+      "vote_average": 6.856,
+      "vote_count": 878,
+      "ticket": [
+        {
+          "rowName": "A",
+          "rowSeats": [
+            {
+              "rowNo": "A",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "B",
+          "rowSeats": [
+            {
+              "rowNo": "B",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 2,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 4,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "C",
+          "rowSeats": [
+            {
+              "rowNo": "C",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 4,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "D",
+          "rowSeats": [
+            {
+              "rowNo": "D",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "E",
+          "rowSeats": [
+            {
+              "rowNo": "E",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 4,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 5,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "F",
+          "rowSeats": [
+            {
+              "rowNo": "F",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "G",
+          "rowSeats": [
+            {
+              "rowNo": "G",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "H",
+          "rowSeats": [
+            {
+              "rowNo": "H",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 10,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg",
+      "belongs_to_collection": {
+        "id": 529892,
+        "name": "Black Panther Collection",
+        "poster_path": "/qT1JPO6IltC2B39QAriAg7SelMx.jpg",
+        "backdrop_path": "/yzVxUMYGKjK3GgmVI2BhmbuL9UY.jpg"
+      },
+      "budget": 250000000,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "homepage": "https://wakandaforevertickets.com",
+      "id": 505642,
+      "imdb_id": "tt9114286",
+      "original_language": "en",
+      "original_title": "Black Panther: Wakanda Forever",
+      "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death.  As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+      "popularity": 2286.347,
+      "poster_path": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+      "production_companies": [
+        {
+          "id": 420,
+          "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+          "name": "Marvel Studios",
+          "origin_country": "US"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+        }
+      ],
+      "release_date": "2022-11-09",
+      "revenue": 858535561,
+      "runtime": 162,
+      "spoken_languages": [
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        },
+        {
+          "english_name": "Haitian; Haitian Creole",
+          "iso_639_1": "ht",
+          "name": ""
+        },
+        {
+          "english_name": "Spanish",
+          "iso_639_1": "es",
+          "name": "Español"
+        },
+        {
+          "english_name": "Xhosa",
+          "iso_639_1": "xh",
+          "name": ""
+        }
+      ],
+      "status": "Released",
+      "tagline": "Forever.",
+      "title": "Black Panther: Wakanda Forever",
+      "video": false,
+      "vote_average": 7.338,
+      "vote_count": 4075,
+      "ticket": [
+        {
+          "rowName": "A",
+          "rowSeats": [
+            {
+              "rowNo": "A",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "B",
+          "rowSeats": [
+            {
+              "rowNo": "B",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "C",
+          "rowSeats": [
+            {
+              "rowNo": "C",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "D",
+          "rowSeats": [
+            {
+              "rowNo": "D",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "E",
+          "rowSeats": [
+            {
+              "rowNo": "E",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "F",
+          "rowSeats": [
+            {
+              "rowNo": "F",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "G",
+          "rowSeats": [
+            {
+              "rowNo": "G",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "H",
+          "rowSeats": [
+            {
+              "rowNo": "H",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "userTicket": [
     {
       "movieName": "Plane",
       "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
-      "rowNo": "A",
-      "seatNo": 3,
+      "rowNo": "B",
+      "seatNo": 4,
       "id": 1
+    },
+    {
+      "movieName": "Plane",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "C",
+      "seatNo": 4,
+      "id": 2
+    },
+    {
+      "movieName": "Plane",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "E",
+      "seatNo": 4,
+      "id": 3
+    },
+    {
+      "movieName": "Plane",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "E",
+      "seatNo": 5,
+      "id": 4
+    },
+    {
+      "movieName": "Plane",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "B",
+      "seatNo": 2,
+      "id": 5
+    },
+    {
+      "movieName": "Plane",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "H",
+      "seatNo": 10,
+      "id": 6
+    },
+    {
+      "movieName": "Knock at the Cabin",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "A",
+      "seatNo": 1,
+      "id": 7
     }
   ]
 }

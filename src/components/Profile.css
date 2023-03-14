@@ -1,0 +1,21 @@
+.ticket-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.ticket {
+    background-image: url("./ticketBackground.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    margin: 5px;
+    flex-grow: 1/2;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+}
