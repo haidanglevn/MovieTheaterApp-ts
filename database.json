@@ -98,9 +98,9 @@
             {
               "rowNo": "A",
               "seatNo": 3,
-              "name": "",
-              "uid": "",
-              "available": true
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
             },
             {
               "rowNo": "A",
@@ -3405,6 +3405,686 @@
           ]
         }
       ]
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mqsPyyeDCBAghXyjbw4TfEYwljw.jpg",
+      "belongs_to_collection": null,
+      "budget": 20000000,
+      "genres": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 10752,
+          "name": "War"
+        },
+        {
+          "id": 36,
+          "name": "History"
+        }
+      ],
+      "homepage": "https://www.netflix.com/title/81260280",
+      "id": 49046,
+      "imdb_id": "tt1016150",
+      "original_language": "de",
+      "original_title": "Im Westen nichts Neues",
+      "overview": "Paul Baumer and his friends Albert and Muller, egged on by romantic dreams of heroism, voluntarily enlist in the German army. Full of excitement and patriotic fervour, the boys enthusiastically march into a war they believe in. But once on the Western Front, they discover the soul-destroying horror of World War I.",
+      "popularity": 721.462,
+      "poster_path": "/hYqOjJ7Gh1fbqXrxlIao1g8ZehF.jpg",
+      "production_companies": [
+        {
+          "id": 52059,
+          "logo_path": "/f0otN1AH3MrtQK5M4aIkZJkVrgy.png",
+          "name": "RocketScience",
+          "origin_country": "GB"
+        },
+        {
+          "id": 36616,
+          "logo_path": "/ujmuIln4o5ZK08NvI7GmSuV0jj6.png",
+          "name": "Amusement Park Films",
+          "origin_country": "DE"
+        }
+      ],
+      "production_countries": [
+        {
+          "iso_3166_1": "DE",
+          "name": "Germany"
+        },
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
+        }
+      ],
+      "release_date": "2022-10-07",
+      "revenue": 0,
+      "runtime": 147,
+      "spoken_languages": [
+        {
+          "english_name": "French",
+          "iso_639_1": "fr",
+          "name": "Français"
+        },
+        {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+        },
+        {
+          "english_name": "German",
+          "iso_639_1": "de",
+          "name": "Deutsch"
+        }
+      ],
+      "status": "Released",
+      "tagline": "",
+      "title": "All Quiet on the Western Front",
+      "video": false,
+      "vote_average": 7.757,
+      "vote_count": 2202,
+      "ticket": [
+        {
+          "rowName": "A",
+          "rowSeats": [
+            {
+              "rowNo": "A",
+              "seatNo": 1,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "B",
+          "rowSeats": [
+            {
+              "rowNo": "B",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "C",
+          "rowSeats": [
+            {
+              "rowNo": "C",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "D",
+          "rowSeats": [
+            {
+              "rowNo": "D",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "E",
+          "rowSeats": [
+            {
+              "rowNo": "E",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "F",
+          "rowSeats": [
+            {
+              "rowNo": "F",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "G",
+          "rowSeats": [
+            {
+              "rowNo": "G",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "H",
+          "rowSeats": [
+            {
+              "rowNo": "H",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "userTicket": [
@@ -3456,6 +4136,20 @@
       "rowNo": "A",
       "seatNo": 1,
       "id": 7
+    },
+    {
+      "movieName": "Puss in Boots: The Last Wish",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "A",
+      "seatNo": 3,
+      "id": 8
+    },
+    {
+      "movieName": "All Quiet on the Western Front",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "A",
+      "seatNo": 1,
+      "id": 9
     }
   ]
 }
