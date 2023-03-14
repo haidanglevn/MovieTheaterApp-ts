@@ -2,218 +2,709 @@
   "movies": [
     {
       "adult": false,
-      "backdrop_path": "/22z44LPkMyf5nyyXvv8qQLsbom.jpg",
-      "belongs_to_collection": null,
-      "budget": 20000000,
-      "genres": [
-        {
-          "id": 27,
-          "name": "Horror"
-        },
-        {
-          "id": 9648,
-          "name": "Mystery"
-        },
-        {
-          "id": 53,
-          "name": "Thriller"
-        }
-      ],
-      "homepage": "https://www.knockatthecabin.com",
-      "id": 631842,
-      "imdb_id": "tt15679400",
-      "original_language": "en",
-      "original_title": "Knock at the Cabin",
-      "overview": "While vacationing at a remote cabin, a young girl and her two fathers are taken hostage by four armed strangers who demand that the family make an unthinkable choice to avert the apocalypse. With limited access to the outside world, the family must decide what they believe before all is lost.",
-      "popularity": 2101.02,
-      "poster_path": "/dm06L9pxDOL9jNSK4Cb6y139rrG.jpg",
-      "production_companies": [
-        {
-          "id": 12236,
-          "logo_path": "/uV6QBPdn3MjQzAFdgEel6od7geg.png",
-          "name": "Blinding Edge Pictures",
-          "origin_country": "US"
-        },
-        {
-          "id": 33,
-          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-          "name": "Universal Pictures",
-          "origin_country": "US"
-        },
-        {
-          "id": 7493,
-          "logo_path": "/452FO4LcI6lA6bfgl6w1kQYRBlr.png",
-          "name": "FilmNation Entertainment",
-          "origin_country": "US"
-        },
-        {
-          "id": 152785,
-          "logo_path": null,
-          "name": "Wishmore",
-          "origin_country": "US"
-        },
-        {
-          "id": 10338,
-          "logo_path": "/el2ap6lvjcEDdbyJoB3oKiYgXu9.png",
-          "name": "Perfect World Pictures",
-          "origin_country": "CN"
-        }
-      ],
-      "production_countries": [
-        {
-          "iso_3166_1": "US",
-          "name": "United States of America"
-        }
-      ],
-      "release_date": "2023-02-01",
-      "revenue": 52000000,
-      "runtime": 100,
-      "spoken_languages": [
-        {
-          "english_name": "English",
-          "iso_639_1": "en",
-          "name": "English"
-        }
-      ],
-      "status": "Released",
-      "tagline": "Save your family or save humanity. Make the choice.",
-      "title": "Knock at the Cabin",
-      "video": false,
-      "vote_average": 6.447,
-      "vote_count": 989
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
+      "backdrop_path": "/9Rq14Eyrf7Tu1xk0Pl7VcNbNh1n.jpg",
       "belongs_to_collection": {
-        "id": 94602,
-        "name": "Puss in Boots Collection",
-        "poster_path": "/anHwj9IupRoRZZ98WTBvHpTiE6A.jpg",
-        "backdrop_path": "/feU1DWV5zMWxXUHJyAIk3dHRQ9c.jpg"
+        "id": 1099094,
+        "name": "Plane Collection",
+        "poster_path": null,
+        "backdrop_path": null
       },
-      "budget": 90000000,
+      "budget": 25000000,
       "genres": [
         {
-          "id": 16,
-          "name": "Animation"
+          "id": 28,
+          "name": "Action"
         },
         {
           "id": 12,
           "name": "Adventure"
         },
         {
-          "id": 35,
-          "name": "Comedy"
-        },
-        {
-          "id": 10751,
-          "name": "Family"
+          "id": 53,
+          "name": "Thriller"
         }
       ],
-      "homepage": "https://www.dreamworks.com/movies/puss-in-boots-the-last-wish",
-      "id": 315162,
-      "imdb_id": "tt3915174",
+      "homepage": "https://www.plane.movie",
+      "id": 646389,
+      "imdb_id": "tt5884796",
       "original_language": "en",
-      "original_title": "Puss in Boots: The Last Wish",
-      "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
-      "popularity": 2531.473,
-      "poster_path": "/kuf6dutpsT0vSVehic3EZIqkOBt.jpg",
+      "original_title": "Plane",
+      "overview": "After a heroic job of successfully landing his storm-damaged aircraft in a war zone, a fearless pilot finds himself between the agendas of multiple militias planning to take the plane and its passengers hostage.",
+      "popularity": 1579.028,
+      "poster_path": "/qi9r5xBgcc9KTxlOLjssEbDgO0J.jpg",
       "production_companies": [
         {
-          "id": 521,
-          "logo_path": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png",
-          "name": "DreamWorks Animation",
+          "id": 73492,
+          "logo_path": "/bQzrYnomE5hIRJMxEy7e2SCYew3.png",
+          "name": "MadRiver Pictures",
           "origin_country": "US"
         },
         {
-          "id": 33,
-          "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-          "name": "Universal Pictures",
+          "id": 435,
+          "logo_path": "/AjzK0s2w1GtLfR4hqCjVSYi0Sr8.png",
+          "name": "Di Bonaventura Pictures",
           "origin_country": "US"
+        },
+        {
+          "id": 103331,
+          "logo_path": "/nxkmGpo1Ym74DkBzNtoMz5cl6DJ.png",
+          "name": "G-BASE",
+          "origin_country": "US"
+        },
+        {
+          "id": 149107,
+          "logo_path": "/m5rZejMojEGh6zJyCEzdBdS0ZAy.png",
+          "name": "Olive Hill Media",
+          "origin_country": "US"
+        },
+        {
+          "id": 76314,
+          "logo_path": "/oFiHo3350Nj7bi6oxYMq3Kp6VGC.png",
+          "name": "Riverstone Pictures",
+          "origin_country": "GB"
         }
       ],
       "production_countries": [
         {
           "iso_3166_1": "US",
           "name": "United States of America"
+        },
+        {
+          "iso_3166_1": "PR",
+          "name": "Puerto Rico"
+        },
+        {
+          "iso_3166_1": "GB",
+          "name": "United Kingdom"
         }
       ],
-      "release_date": "2022-12-07",
-      "revenue": 461000000,
-      "runtime": 103,
+      "release_date": "2023-01-12",
+      "revenue": 51000000,
+      "runtime": 107,
       "spoken_languages": [
         {
           "english_name": "English",
           "iso_639_1": "en",
           "name": "English"
-        },
-        {
-          "english_name": "Spanish",
-          "iso_639_1": "es",
-          "name": "Español"
         }
       ],
       "status": "Released",
-      "tagline": "Say hola to his little friends.",
-      "title": "Puss in Boots: The Last Wish",
+      "tagline": "Survive together or die alone.",
+      "title": "Plane",
       "video": false,
-      "vote_average": 8.4,
-      "vote_count": 4552
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/7WrT7uLg54716D3pZIavAfmR0uB.jpg",
-      "belongs_to_collection": null,
-      "budget": 0,
-      "genres": [
+      "vote_average": 6.856,
+      "vote_count": 878,
+      "ticket": [
         {
-          "id": 10749,
-          "name": "Romance"
+          "rowName": "A",
+          "rowSeats": [
+            {
+              "rowNo": "A",
+              "seatNo": 1,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 2,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 3,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "A",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
         },
         {
-          "id": 35,
-          "name": "Comedy"
-        }
-      ],
-      "homepage": "https://www.netflix.com/title/81425117",
-      "id": 818648,
-      "imdb_id": "tt14463514",
-      "original_language": "es",
-      "original_title": "Eres tú",
-      "overview": "The story of Javier who, at the age of 16, while kissing a girl for the first time, realized that he had a gift of romantic clairvoyance. Javier can see the future... and he finally knows who the love of his life is.",
-      "popularity": 448.564,
-      "poster_path": "/9dHFRTHP7OAhDTKsmYeDUNAx7Bf.jpg",
-      "production_companies": [
+          "rowName": "B",
+          "rowSeats": [
+            {
+              "rowNo": "B",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "B",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
         {
-          "id": 9967,
-          "logo_path": "/273isjO76GPpWVBLjBiBgFPUfwu.png",
-          "name": "Zeta Studios",
-          "origin_country": "ES"
-        }
-      ],
-      "production_countries": [
+          "rowName": "C",
+          "rowSeats": [
+            {
+              "rowNo": "C",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "C",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
         {
-          "iso_3166_1": "ES",
-          "name": "Spain"
-        }
-      ],
-      "release_date": "2023-03-03",
-      "revenue": 0,
-      "runtime": 96,
-      "spoken_languages": [
+          "rowName": "D",
+          "rowSeats": [
+            {
+              "rowNo": "D",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "D",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
         {
-          "english_name": "Spanish",
-          "iso_639_1": "es",
-          "name": "Español"
+          "rowName": "E",
+          "rowSeats": [
+            {
+              "rowNo": "E",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "E",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "F",
+          "rowSeats": [
+            {
+              "rowNo": "F",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "F",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "G",
+          "rowSeats": [
+            {
+              "rowNo": "G",
+              "seatNo": 1,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "G",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
+        },
+        {
+          "rowName": "H",
+          "rowSeats": [
+            {
+              "rowNo": "H",
+              "seatNo": 1,
+              "name": "Hai Dang Le",
+              "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+              "available": false
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 2,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 3,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 4,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 5,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 6,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 7,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 8,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 9,
+              "name": "",
+              "uid": "",
+              "available": true
+            },
+            {
+              "rowNo": "H",
+              "seatNo": 10,
+              "name": "",
+              "uid": "",
+              "available": true
+            }
+          ]
         }
-      ],
-      "status": "Released",
-      "tagline": "",
-      "title": "Love at First Kiss",
-      "video": false,
-      "vote_average": 6.188,
-      "vote_count": 77
+      ]
     }
   ],
-  "ticket": []
+  "userTicket": [
+    {
+      "movieName": "Plane",
+      "uid": "MPjc3SWDwMN2Vvu7atox5k94R4x2",
+      "rowNo": "A",
+      "seatNo": 3,
+      "id": 1
+    }
+  ]
 }

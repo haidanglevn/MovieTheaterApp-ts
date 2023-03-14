@@ -1,8 +1,10 @@
 import axios from "axios";
-import { FC, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import seatMapArray from "../seatMap.json";
 import "./SeatMap.css";
 import { MoviesData } from "./MovieSingle";
+import { auth } from "../auth/firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 interface MoviesDataWithTicket extends MoviesData {
   ticket?: SeatMap;
@@ -10,7 +12,8 @@ interface MoviesDataWithTicket extends MoviesData {
 interface Seat {
   rowNo: string;
   seatNo: number;
-  name: string;
+  name?: string | null;
+  uid?: string | null;
   available: boolean;
 }
 
@@ -25,17 +28,20 @@ interface Props {
   name: string;
   id: number;
 }
+
+interface Ticket {
+  movieName: string;
+  uid: string | null;
+  rowNo: string;
+  seatNo: number;
+}
+
 const SeatMap = (props: Props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [seatData, setSeatData] = useState<SeatMap>();
   const [chosenSeat, setChosenSeat] = useState<Seat>();
+  const [user] = useAuthState(auth);
 
-  // fetch test.db, search in movies if there is any with the same name as props.name
-  // if yes, check if there is already a ticket property: (case1)
-  // -----> yes: fetch that ticket array, show in UI
-  // -----> no: take empty array from seatMap.json, push in array as ticket.
-  // if no, create new object with props.name, take empty array from seatMap.json,
-  // push in array as ticket. (case2)
   useEffect(() => {
     axios.get(`http://localhost:3001/movies/${props.id}`).then((res) => {
       const itemData: MoviesDataWithTicket = res.data;
@@ -60,7 +66,15 @@ const SeatMap = (props: Props) => {
   }, []);
 
   const buyTicket = () => {
+    // change the info of the chosen seat with name, uid and available
+    let ticketInfo = chosenSeat;
+    ticketInfo!.name = user?.displayName;
+    ticketInfo!.uid = user?.uid;
+    ticketInfo!.available = false;
+    setChosenSeat(ticketInfo);
     console.log("Ticket info: ", chosenSeat);
+
+    // update the change to movies db
     axios.get(`http://localhost:3001/movies/${props.id}`).then((res) => {
       const selectedMovie = res.data;
       const selectedTicket = selectedMovie.ticket;
@@ -71,6 +85,7 @@ const SeatMap = (props: Props) => {
         if (seat.seatNo === chosenSeat?.seatNo) {
           seat.name = chosenSeat?.name;
           seat.available = chosenSeat?.available;
+          seat.uid = chosenSeat?.uid;
         }
       });
       axios
@@ -84,53 +99,45 @@ const SeatMap = (props: Props) => {
         });
       console.log("Ticket bought succesfully");
     });
+
+    //update the change to ticket db
+    const newTicket: Ticket = {
+      movieName: props.name,
+      uid: user!.uid,
+      rowNo: chosenSeat!.rowNo,
+      seatNo: chosenSeat!.seatNo,
+    };
+
+    // this is a patching solution
+    axios.post(`http://localhost:3001/userTicket`, newTicket).then((res) => {
+      console.log(res);
+    });
   };
 
-  const changeTicketInfo = (nameOnTicket: string) => {
-    let ticketInfo = chosenSeat;
-    ticketInfo!.name = nameOnTicket;
-    ticketInfo!.available = false;
-    setChosenSeat(ticketInfo);
-    console.log(chosenSeat);
-  };
-
+  // render UI to buy ticket for the chosen seat
   const chosenSeatRender = () => {
     if (chosenSeat) {
       return (
         <div>
+          <h2>This seat is available to buy!</h2>
+          <p>Check your info before click "buy ticket":</p>
           <div>
             <h1>Your chosen seat: </h1>
             <h2>Row: {chosenSeat!.rowNo}</h2>
             <h2>Seat: {chosenSeat!.seatNo}</h2>
-            <h2>This seat is available to buy!</h2>
           </div>
-          <form>
-            <label htmlFor="ticket-name">
-              Enter your name here and press "Buy ticket"
-            </label>
-            <input
-              type="text"
-              id="ticket-name"
-              onChange={(e) => changeTicketInfo(e.target.value)}
-            />
-          </form>
+          <p>Name: {user?.displayName}</p>
+          <p>Email: {user?.email}</p>
           <button onClick={buyTicket}>Buy ticket</button>
         </div>
       );
     }
   };
 
+  // onclick function to only change chosenSeat if it is available
   const showChosenSeat = (chosenSeat: Seat): void => {
     if (chosenSeat.available) {
-      console.log("seat data", chosenSeat);
       setChosenSeat(chosenSeat);
-    }
-  };
-
-  const renderSeatMap = () => {
-    if (seatData) {
-      console.log("Movie has seatdata");
-      return <h1>Has Data</h1>;
     }
   };
 
