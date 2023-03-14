@@ -1,7 +1,10 @@
 import { NavLink, Outlet } from "react-router-dom";
 import "./Layout.css";
+import { handleGoogleSignIn, auth, googleSignOut } from "../auth/firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 const Layout = () => {
+  const [user] = useAuthState(auth);
   return (
     <>
       <div className="nav">
@@ -10,20 +13,32 @@ const Layout = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/seatmap">Seat Map</NavLink>
+            <NavLink to="/profile">Profile</NavLink>
           </li>
         </ul>
       </div>
       <div className="top">
         <h1>
-          <NavLink to="/home">MOVIEX</NavLink>
+          <NavLink to="/">MOVIEX</NavLink>
         </h1>
         <div className="welcome-user">
-          <div className="circle"></div>
-          <div>
-            <p>Username </p>
-            <p>User email</p>
-          </div>
+          {user ? (
+            <>
+              <div>
+                <img className="circle" src={user.photoURL!} alt="" />
+              </div>
+              <div>
+                <p>{user.displayName} </p>
+                <button onClick={googleSignOut}>Log Out</button>
+              </div>
+            </>
+          ) : (
+            <>
+              <button onClick={handleGoogleSignIn}>LOG IN</button>
+            </>
+          )}
+
+          <div></div>
         </div>
       </div>
       <div className="outlet">

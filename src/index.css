@@ -17,3 +17,14 @@ code {
   margin: 0;
   box-sizing: border-box;
 }
+
+button {
+  background-color: yellow;
+  color: black;
+  padding: 3px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+}
