@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 import Movies from "./Movies";
 
 interface Movie {
@@ -16,9 +15,9 @@ interface Movie {
 }
 type MoviesData = Movie[];
 
-const Home = () => {
+const TestNew = () => {
   const [moviesData, setMoviesData] = useState<MoviesData>([]);
-  const fetchURL = `https://api.themoviedb.org/3/discover/movie?api_key=beca0ddb56a192917d51c9b0f0d98844&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&primary_release_year=2023&with_watch_monetization_types=flatrate`;
+  const fetchURL = `https://api.themoviedb.org/3/discover/movie?api_key=beca0ddb56a192917d51c9b0f0d98844&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&year=2022&with_watch_monetization_types=flatrate`;
 
   useEffect(() => {
     axios.get(fetchURL).then((res) => {
@@ -28,7 +27,7 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <h1>Newest Releases</h1>
+      <h1>Most Talked About</h1>
 
       <div className="movie-wrapper">
         {moviesData.map((movie) => {
@@ -39,4 +38,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default TestNew;
