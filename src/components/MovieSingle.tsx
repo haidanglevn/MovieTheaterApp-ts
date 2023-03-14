@@ -32,7 +32,6 @@ export type ProductionCompanies = {
 
 const MovieSingle = () => {
   const params = useParams();
-  const [isLoading, setIsLoading] = useState(false);
   const [moviesData, setMoviesData] = useState<MoviesData>();
 
   // find data from local, if not found fetch from api

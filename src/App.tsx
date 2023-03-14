@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Layout from "./pages/Layout";
 import "./App.css";
-import Home from "./components/Home";
+import New from "./components/New";
 import MovieSingle from "./components/MovieSingle";
 import Profile from "./components/Profile";
-import TestNew from "./components/TestNew";
+import Popular from "./components/Popular";
 
 
 const App = () => {
@@ -14,9 +14,9 @@ const App = () => {
         <div className="App">
           <Routes>
             <Route path="/" element={<Layout />}>
-              <Route path="/" element={<Home />} />
-              <Route path="/test" element={<TestNew />} />
-              <Route path="/test/:single/*" element={<MovieSingle />} />
+              <Route path="/" element={<New />} />
+              <Route path="/popular" element={<Popular />} />
+              <Route path="/popular/:single/*" element={<MovieSingle />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/:single/*" element={<MovieSingle />} />
             </Route>

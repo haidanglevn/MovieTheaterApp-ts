@@ -16,7 +16,7 @@ interface Movie {
 }
 type MoviesData = Movie[];
 
-const Home = () => {
+const New = () => {
   const [moviesData, setMoviesData] = useState<MoviesData>([]);
   const fetchURL = `https://api.themoviedb.org/3/discover/movie?api_key=beca0ddb56a192917d51c9b0f0d98844&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&primary_release_year=2023&with_watch_monetization_types=flatrate`;
 
@@ -27,7 +27,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="Home">
+    <div className="New">
       <h1>Newest Releases</h1>
 
       <div className="movie-wrapper">
@@ -39,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default New;
