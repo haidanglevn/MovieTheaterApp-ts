@@ -127,6 +127,13 @@ const SeatMap = (props: Props) => {
     }
   };
 
+  const renderSeatMap = () => {
+    if (seatData) {
+      console.log("Movie has seatdata");
+      return <h1>Has Data</h1>;
+    }
+  };
+
   const renderTicket = () => {
     if (isLoading) {
       return <h1>Page is Loading...</h1>;

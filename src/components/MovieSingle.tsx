@@ -32,7 +32,7 @@ export type ProductionCompanies = {
 
 const MovieSingle = () => {
   const params = useParams();
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [moviesData, setMoviesData] = useState<MoviesData>();
 
   // find data from local, if not found fetch from api
@@ -66,7 +66,7 @@ const MovieSingle = () => {
         });
       // Try fix this 500 dublicate error
       /* .catch((error) => {
-          console.log("Error updating data:", error);
+          console.log("Error updating data:", err or);
         }); */
     }
   }, [moviesData]);
