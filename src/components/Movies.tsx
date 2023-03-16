@@ -74,7 +74,7 @@ const Movies: React.FC<Movie> = (props) => {
           alt="poster"
           style={posterStyle}
         />
-        <span>★ {props.vote_average}</span>
+        <span style={{fontSize: "20px"}}>★ {props.vote_average}</span>
         {renderOverlay(props)}
       </div>
     </>
